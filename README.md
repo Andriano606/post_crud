@@ -1,28 +1,5 @@
-# PostCrud
-Short description and motivation.
+rails plugin new post_crud --mountable
 
-## Usage
-How to use my plugin.
 
-## Installation
-Add this line to your application's Gemfile:
-
-```ruby
-gem "post_crud"
-```
-
-And then execute:
-```bash
-$ bundle
-```
-
-Or install it yourself as:
-```bash
-$ gem install post_crud
-```
-
-## Contributing
-Contribution directions go here.
-
-## License
-The gem is available as open source under the terms of the [MIT License](https://opensource.org/licenses/MIT).
+<!-- This will copy the migration files from the post_crud gem to the host Rails app's db/migrate/ directory. -->
+bin/rails post_crud:install:migrations
