@@ -1,0 +1,17 @@
+h1 Posts
+= link_to 'New Post', post_crud.new_post_path
+table
+  thead
+    tr
+      th Title
+      th Content
+      th Actions
+  tbody
+    - @posts.each do |post|
+      tr
+        td = post.title
+        td = truncate(post.content, length: 50)
+        td
+          / = link_to 'Edit', post_crud.edit_post_path(post)
+          / | |
+          / = link_to 'Delete', post_crud.post_path(post), method: :delete, data: { confirm: 'Are you sure?' }
