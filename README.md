@@ -10,3 +10,4 @@ RAILS_ENV=production rails assets:precompile
 <!-- This will include the post_crud assets in the precompilation process. -->
 
 
+bundle update post_crud
