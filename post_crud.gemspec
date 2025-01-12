@@ -24,6 +24,5 @@ Gem::Specification.new do |spec|
 
   spec.add_dependency "rails", ">= 6.0"
   spec.add_dependency 'slim-rails'
-  spec.add_dependency 'slim-rails'
   spec.add_dependency 'multi_json'
 end
