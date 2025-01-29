@@ -2,6 +2,7 @@ PATH
   remote: .
   specs:
     post_crud (0.1.0)
+      multi_json
       rails (>= 6.0)
       slim-rails
 
@@ -113,6 +114,7 @@ GEM
     mini_mime (1.1.5)
     mini_portile2 (2.8.8)
     minitest (5.25.4)
+    multi_json (1.15.0)
     net-imap (0.5.5)
       date
       net-protocol
@@ -138,7 +140,7 @@ GEM
     psych (5.2.2)
       date
       stringio
-    puma (6.5.0)
+    puma (6.6.0)
       nio4r (~> 2.0)
     racc (1.8.1)
     rack (3.1.8)
